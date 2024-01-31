@@ -1,0 +1,9 @@
+====== history
+## M6PA v7.6.2.1 SDK @2022/1/14 (linux 5.4.171)
+## M6PB v7.6.4.0 SDK @2022/3/29 (linux 5.4.182)
+## M6PC v7.6.4.0-CP1 SDK @2022/3/29 (linux 5.4.182), wifi/warp updated to CP1_20221012
+## M6PD v7.6.6.1-CP1 SDK @2022/10/17 (linux 5.4.211)
+## M6PE v7.6.6.1-CP2 SDK @2022/10/17 (linux 5.4.211), update 2/3 wifi firmware CP2, 20221129
+## M6PF v7.6.7.0 SDK @2022/12/09 (linux 5.4.225)
+====== current
+M6PG v7.6.7.0 SDK + MLR patch @2023/10/11 (MLR_patch_from_v7670.rar) (linux 5.4.225)

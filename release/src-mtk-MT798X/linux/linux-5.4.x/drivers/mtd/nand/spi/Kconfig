@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: GPL-2.0-only
+menuconfig MTD_SPI_NAND
+	tristate "SPI NAND device Support"
+	select MTD_NAND_CORE
+	depends on SPI_MASTER
+	select SPI_MEM
+	help
+	  This is the framework for the SPI NAND device drivers.
+
+config MTD_SPI_NAND_W25N01KV
+	tristate "Winbond W25N01KV Support"
+	select MTD_SPI_NAND
+	default n
+	help
+	  Winbond W25N01KV share the same ID with W25N01GV. However, they have
+	  different attributes.
+

@@ -1,0 +1,33 @@
+{
+  "scanSettings": {
+    "configMode": "AUTO",
+    "enableLicenseViolations": true,
+    "baseBranches": ["asuswrt-router-3006","asuswrt-router-3006_nordvpn"]
+  },
+  "scanSettingsSAST": {
+    "enableScan": false,
+    "scanPullRequests": false,
+    "incrementalScan": true,
+    "baseBranches": ["asuswrt-router-3006","asuswrt-router-3006_nordvpn"],
+    "snippetSize": 10
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true
+  },
+  "checkRunSettingsSAST": {
+    "checkRunConclusionLevel": "failure",
+    "severityThreshold": "MEDIUM"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "MEDIUM",
+    "minVulnerabilityScore": "4.0",
+    "issueType": "DEPENDENCY"
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
+  }
+}
